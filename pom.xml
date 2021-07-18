@@ -5,7 +5,7 @@
     <parent>
         <groupId>io.airlift</groupId>
         <artifactId>airbase</artifactId>
-        <version>110</version>
+        <version>112</version>
     </parent>
 
     <groupId>io.airlift.discovery</groupId>
@@ -54,7 +54,9 @@
     <properties>
         <air.check.skip-extended>true</air.check.skip-extended>
 
-        <dep.airlift.version>204</dep.airlift.version>
+        <project.build.targetJdk>11</project.build.targetJdk>
+
+        <dep.airlift.version>208</dep.airlift.version>
         <dep.packaging.version>${dep.airlift.version}</dep.packaging.version>
         <dep.leveldb.version>0.12</dep.leveldb.version>
     </properties>
